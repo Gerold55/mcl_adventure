@@ -2,11 +2,11 @@
 Adventure mode for Mineclonia
 
 Features:
---  * Per-player Adventure flag (saved).
---  * Blocks cannot be broken by hand or tools unless tool is whitelisted.
---  * Entities CAN be interacted with (normal punching / use).
+--  Per-player Adventure flag (saved).
+--  Blocks cannot be broken by hand or tools unless tool is whitelisted.
+--  Entities CAN be interacted with (normal punching / use).
 --      - Crops/mobs/boats/minecarts etc. behave normally except where restricted.
---  * Optional:
+--  Optional:
 --      - Strict "CanDestroy" tool rules (default ON, Minecraft-like).
 --      - Restrict placing blocks ("CanPlaceOn").
 --      - Allow crops/plants to be harvested.
