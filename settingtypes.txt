@@ -1,3 +1,21 @@
-# Adventure Mode settings
+# Adventure Mode base behavior
 
 mcl_adventure_default (Enable Adventure mode by default for new players) bool false
+mcl_adventure_strict_breaking (Strict block breaking: tools only break whitelisted blocks) bool true
+mcl_adventure_restrict_placing (Restrict block placement to whitelisted nodes) bool true
+mcl_adventure_allow_crop_harvest (Allow breaking crops/plants in Adventure) bool false
+
+# Damage behavior (only for players in Adventure)
+
+mcl_adventure_allow_damage (Allow any damage to players in Adventure) bool true
+mcl_adventure_allow_damage_mobs (Allow damage from punches/mobs in Adventure) bool true
+mcl_adventure_allow_damage_environment (Allow damage from fire, fall, drowning, etc.) bool true
+mcl_adventure_allow_damage_other (Allow damage from potions, commands, magic, etc.) bool true
+
+# /kill control (only for players in Adventure)
+
+mcl_adventure_protect_kill (Protect Adventure players from /kill) bool false
+
+# Custom spawn behavior
+
+mcl_adventure_allow_custom_spawn (Allow custom spawn points for Adventure players) bool true
