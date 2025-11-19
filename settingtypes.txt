@@ -1,0 +1,3 @@
+# Adventure Mode settings
+
+mcl_adventure_default (Enable Adventure mode by default for new players) bool false
